@@ -65,7 +65,7 @@ WebDriverManager.chromedriver().setup();
 		
 		driver.findElement(By.xpath("(//label[.='Paris'])[2]")).click();
 		
-		//driver.close();
+		driver.close();
 	}
 
 }
